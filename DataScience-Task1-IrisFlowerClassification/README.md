@@ -1,9 +1,11 @@
 # Task 1: Iris Flower Classification
 
 ## Internship Program
+
 AICTE Oasis Infobyte Internship Program
 
 ## Track
+
 Data Science
 
 ## Objective
@@ -45,6 +47,33 @@ A species column was also added to make the classification results easier to int
 - Seaborn
 - Scikit-learn
 
+## Exploratory Data Analysis
+
+The following exploratory data analysis steps were performed:
+
+- Inspected the dataset shape and dimensions.
+- Examined column names and data types.
+- Generated descriptive statistics.
+- Checked for missing values.
+- Added species names to the dataset.
+- Analysed feature distributions and relationships between iris species.
+
+## Visualizations
+
+The project includes the following visualizations:
+
+- Pairplot showing relationships between iris features by species.
+- Box plots showing the distribution of each numerical feature across species.
+- Model performance comparison visualization.
+
+These visualizations were used to understand the differences between iris species and the distribution of their physical measurements.
+
+## Feature Selection
+
+The iris features were analysed to determine which measurements are most useful for distinguishing between the three species.
+
+The petal-related measurements, particularly petal length and petal width, show strong differences between the iris species and are highly useful for classification.
+
 ## Project Workflow
 
 The project followed these steps:
@@ -56,13 +85,14 @@ The project followed these steps:
 5. Checked for missing values.
 6. Added species names to the dataset.
 7. Performed exploratory data analysis.
-8. Created visualizations to understand feature distributions and relationships.
-9. Discussed feature selection and identified the most discriminative features.
+8. Created pairplot and box plot visualizations.
+9. Analysed the most discriminative features.
 10. Split the dataset into training and testing sets.
 11. Trained two different classification models.
 12. Evaluated the models using accuracy, precision, recall, and F1-score.
-13. Compared the model performances.
-14. Identified the best-performing classification model.
+13. Generated confusion matrices and classification reports.
+14. Compared the performance of both models.
+15. Identified the best-performing classification model.
 
 ## Machine Learning Models
 
@@ -70,6 +100,17 @@ The following classification models were trained:
 
 1. Logistic Regression
 2. Random Forest Classifier
+
+## Model Evaluation
+
+Each model was evaluated using:
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+- Classification Report
 
 ## Model Performance
 
@@ -91,19 +132,13 @@ It achieved:
 
 The Logistic Regression model achieved better overall performance than the Random Forest model on the test dataset based on the reported evaluation metrics.
 
-## Feature Selection
-
-The project includes an analysis of the iris flower features to understand which measurements are most useful for distinguishing between the three species.
-
-The petal-related measurements show strong differences between iris species and are useful features for classification.
-
 ## Conclusion
 
 This project demonstrates the use of machine learning classification techniques to identify iris flower species based on physical measurements.
 
 Two classification models, Logistic Regression and Random Forest, were trained and evaluated. Logistic Regression achieved the best overall performance among the tested models, with an accuracy of 0.966667 and an F1-Score of 0.966583.
 
-The project demonstrates the complete machine learning workflow, including data loading, exploratory data analysis, visualization, feature analysis, model training, evaluation, and model comparison.
+The project demonstrates the complete machine learning workflow, including data loading, exploratory data analysis, data visualization, feature analysis, train/test splitting, model training, model evaluation, confusion matrix analysis, classification reports, and model comparison.
 
 ## Files
 
